@@ -38,7 +38,7 @@ h1{
 }
 
 .card{
-  max-width: 300px;
+  max-width: 400px;
   min-height: 200px;
   background-color: var(--primary);
   color:var(--font-color);
@@ -47,12 +47,20 @@ h1{
   position: relative;
 
 }
+.card h4{
+  text-align: center;
+    padding-top: 20px;
+  
+    font-size: 1.2rem;
+    
+  }
 .lead{
 
   max-width: 100%;
   text-align: center;
   font-size: 1.1rem;
-  padding-top: 20px;
+  margin: 10px auto;
+ 
 }
 .info{
   max-width: 100%;
@@ -64,13 +72,7 @@ h1{
   transform: translate(-50% , -50%);
   
 }
-.card h4{
-
-  margin: 0;
-
-  font-size: 1.2rem;
-  
-}
+ 
 .card p{
   margin: 0;
 
